@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo a Ler</title>
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav aria-label="Menu Principal">
+      <ul>
+        <li><a href="#livros">Livros</a></li>
+        <li><a href="#gibis">Gibis</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <h1>Bem-vindo ao Aprendendo a Ler!</h1>
+      <p>Descubra livros e gibis incríveis para aprender e se divertir!</p>
+    </header>
+
+    <section id="livros">
+      <h2>Livros</h2>
+      <div class="card">
+        <!-- Imagem clicável para "O Pequeno Príncipe" -->
+        <a href="https://www.sesirs.org.br/sites/default/files/paragraph--files/o_pequeno_principe_-_antoine_de_saint-exupery_1.pdf" target="_blank">
+          <img src="pequenoprincipe.jpg" alt="Livro 1">
+        </a>
+        <p>O Pequeno Príncipe</p>
+      </div>
+      <div class="card">
+        <!-- Imagem clicável para "Meu Pé de Laranja Lima" -->
+        <a href="https://dpid.cidadaopg.sp.gov.br/pde/arquivos/1620320705830~HQ%209%C2%BA%20ano%20-O%20meu%20p%C3%A9%20de%20laranja%20lima.pdf" target="_blank">
+          <img src="meupe-delaranjalima.jpg" alt="Livro 2">
+        </a>
+        <p>Meu Pé de Laranja Lima</p>
+      </div>
+    </section>
+
+    <section id="gibis">
+      <h2>Gibis</h2>
+      <div class="card">
+        <!-- Imagem clicável para um exemplo de gibi -->
+        <a href="https://www.exemplo.com/gibi1" target="_blank">
+          <img src="https://via.placeholder.com/100" alt="Gibi 1">
+        </a>
+        <p>Gibi Divertido</p>
+      </div>
+      <div class="card">
+        <!-- Imagem clicável para outro exemplo de gibi -->
+        <a href="https://www.exemplo.com/gibi2" target="_blank">
+          <img src="https://via.placeholder.com/100" alt="Gibi 2">
+        </a>
+        <p>Gibi Colorido</p>
+      </div>
+    </section>
+  </body>
+</html>
